@@ -1,0 +1,15 @@
+$celadonGreen: #21897e;
+$keppel: #3ba99c;
+$mediumTurquoise: #69d1c5;
+$aero: #7ebce6;
+$mediumPurple: #8980f5;
+
+$custom-colors: (
+  "celadon": $celadonGreen,
+  "keppel": $keppel,
+  "turquoise": $mediumTurquoise,
+  "aero": $aero,
+  "purple": $mediumPurple,
+);
+
+@import "bulma/bulma";
