@@ -1,5 +1,11 @@
-.container {
-  border: 2px solid red;
+$celadonGreen: #21897e;
+$keppel: #3ba99c;
+$mediumTurquoise: #69d1c5;
+$aero: #7ebce6;
+$mediumPurple: #8980f5;
+
+.intro {
+  border: 2px solid $celadonGreen;
 
   .name {
     font-size: 36px;
@@ -13,5 +19,24 @@
   .headshot {
     width: 50%;
     margin: 0 auto;
+  }
+}
+
+.about {
+  border: 2px solid $celadonGreen;
+
+  .heading {
+    text-align: center;
+  }
+
+  .logo {
+    img {
+      background-color: white;
+      padding: 2px;
+      width: 50%;
+      margin: 0 auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
   }
 }
