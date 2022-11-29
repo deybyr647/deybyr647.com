@@ -32,8 +32,18 @@ const Navigation = () => {
 
       <div id={"navbarBasicExample"} className={"navbar-menu"}>
         <div className={"navbar-end"}>
-          <a className={"navbar-item has-text-white"}>Home</a>
-          <a className={"navbar-item has-text-white"}>Documentation</a>
+          <Link className={"navbar-item has-text-white"} href={"#"}>
+            About
+          </Link>
+          <Link className={"navbar-item has-text-white"} href={"#"}>
+            Contact
+          </Link>
+          <Link className={"navbar-item has-text-white"} href={"#"}>
+            Projects
+          </Link>
+          <Link className={"navbar-item has-text-white"} href={"#"}>
+            Resume
+          </Link>
         </div>
       </div>
     </nav>
