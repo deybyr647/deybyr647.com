@@ -18,6 +18,13 @@ a {
   box-sizing: border-box;
 }
 
+.icon {
+  margin: 0 1rem;
+}
+
+svg.icon:hover {
+  fill: $mediumPurple;
+}
 /*@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

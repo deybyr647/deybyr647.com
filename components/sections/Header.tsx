@@ -26,10 +26,34 @@ const HeaderSection = () => {
           </h2>
 
           <div className={"block"}>
-            <EmailIcon />
-            <GithubIcon />
-            <LinkedinIcon />
-            <ResumeIcon />
+            <a
+              href={"https://www.linkedin.com/in/deyby-rodriguez/"}
+              target={"_blank"}
+              rel={"noreferrer noopener"}
+            >
+              <EmailIcon />
+            </a>
+            <a
+              href={"https://www.github.com/deybyr647"}
+              target={"_blank"}
+              rel={"noreferrer noopener"}
+            >
+              <GithubIcon />
+            </a>
+            <a
+              href={"https://www.linkedin.com/in/deyby-rodriguez/"}
+              target={"_blank"}
+              rel={"noreferrer noopener"}
+            >
+              <LinkedinIcon />
+            </a>
+            <a
+              href={"/Resume.pdf"}
+              target={"_blank"}
+              rel={"noreferrer noopener"}
+            >
+              <ResumeIcon />
+            </a>
           </div>
         </div>
       </div>

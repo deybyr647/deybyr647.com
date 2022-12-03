@@ -13,6 +13,7 @@ export const LinkedinIcon = () => (
     title={"Deyby Rodriguez on LinkedIn"}
     size={iconSize}
     color={iconColor}
+    className={"icon"}
   />
 );
 
@@ -22,11 +23,18 @@ export const GithubIcon = () => (
     title={"Deyby Rodriguez on GitHub"}
     size={iconSize}
     color={iconColor}
+    className={"icon"}
   />
 );
 
 export const EmailIcon = () => (
-  <Icon path={mdiEmail} title={"Email Me!"} size={iconSize} color={iconColor} />
+  <Icon
+    path={mdiEmail}
+    title={"Email Me!"}
+    size={iconSize}
+    color={iconColor}
+    className={"icon"}
+  />
 );
 
 export const ResumeIcon = () => (
@@ -35,5 +43,6 @@ export const ResumeIcon = () => (
     title={"My Resume"}
     size={iconSize}
     color={iconColor}
+    className={"icon"}
   />
 );
