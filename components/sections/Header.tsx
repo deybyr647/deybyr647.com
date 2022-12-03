@@ -1,6 +1,7 @@
 import styles from "../../styles/Home.module.scss";
 import Image from "next/image";
 import headShot from "../../public/images/deyby.jpg";
+import { EmailIcon, GithubIcon, LinkedinIcon, ResumeIcon } from "../Icons";
 
 const HeaderSection = () => {
   return (
@@ -17,14 +18,19 @@ const HeaderSection = () => {
         </div>
 
         <div
-          className={`column is-flex is-flex-direction-column is-justify-content-center`}
+          className={`column is-flex is-flex-direction-column is-justify-content-center is-align-items-center`}
         >
           <h1 className={`title ${styles.name}`}>Deyby Rodriguez</h1>
           <h2 className={`subtitle ${styles.heading}`}>
             Full-Stack Web Developer
           </h2>
 
-          <div className={"block"}>{/*<!-- Icons Go Here -->*/}</div>
+          <div className={"block"}>
+            <EmailIcon />
+            <GithubIcon />
+            <LinkedinIcon />
+            <ResumeIcon />
+          </div>
         </div>
       </div>
     </section>
