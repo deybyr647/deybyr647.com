@@ -23,8 +23,12 @@ const HeaderSection = () => {
           <h2 className={`subtitle ${styles.heading}`}>
             Full-Stack Web Developer
           </h2>
+
+          <div className={"block"}>{/*<!-- Icons Go Here -->*/}</div>
         </div>
       </div>
     </section>
   );
 };
+
+export default HeaderSection;
