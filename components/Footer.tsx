@@ -3,8 +3,12 @@ const Footer = () => {
     <footer className={"footer has-background-purple"}>
       <div className={"content has-text-centered has-text-white"}>
         <p>
-          <a href={"http://creativecommons.org/licenses/by-nc-sa/4.0/"}>
-            Deyby Rodriguez
+          <a
+            href={"https://www.deybyr647.com"}
+            target={"_blank"}
+            rel={"noopener noreferrer"}
+          >
+            &copy; 2023 | Deyby Rodriguez
           </a>
         </p>
       </div>
