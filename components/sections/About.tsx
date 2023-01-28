@@ -8,41 +8,55 @@ const AboutSection = () => {
       <div className={`columns ${styles.about}`}>
         <div className={`column`}>
           <h1 className={`title has-text-centered ${styles.heading}`}>
-            About Me
+            About Deyby
           </h1>
-
           <div className={"block"}>
             <p>
-              Hi, I&apos;m Deyby. I&apos;m a Full-Stack Web Developer based in
-              New York City. I&apos;m currently a 2nd year undergraduate student
-              at New York Institute of Technology, with hopes of graduating in
-              2025 with a major in Computer Science and a minor in Business.
-              I&apos;m always looking for opportunities to learn new
-              technologies and improve my skills. Whether it be a learning
-              opportunity, a side project, or an internship, I&apos;m all for
-              it.
-              <br />
-              <br />
-              As previously mentioned, I&apos;m very passionate about all things
-              web. I love working with technologies such as TypeScript, Next.js,
-              Node.js, and Firebase. Web-Dev aside, my background also mainly
-              revolves around Computer Science Education. I&apos;ve been
-              involved within a variety of organizations that focus on educating
-              high school students on the fundamentals of Computer Science and
-              Entrepreneurship. I&apos;ve had the pleasure of working with a
-              multitude of students at organizations such as All Star Code,
-              ELiTE, and Code Next at Google.
-              <br />
-              <br />
-              Currently, I&apos;m interning at Google as a Code Next Site
-              Coordinator. Code Next is a program which focuses on preparing
-              high school students for fruitful careers within the tech
-              industry. I assist in the development and facilitation of the
-              program&apos;s curriculum, as well as the recruitment of students.
-              I&apos;m also super excited for the Summer of 2023, as I&apos;ll
-              be taking on a Software Engineering internship at Prudential
-              Financial. I can&apos; wait to make more connections and learn
-              more about the industry!
+              Deyby is a Full-Stack Web Developer & Computer Science Educator
+              based in New York City. He specializes in working with
+              technologies, such as Node.js, Next.js, and Firebase.
+            </p>
+          </div>
+
+          <div className={"block"}>
+            <h2 className={"title is-4 has-text-centered"}>Current Role</h2>
+            <p>
+              Deyby is currently a Code Next Intern Coach at Google. Code Next
+              is a program which focuses on preparing high school students for
+              fruitful careers within the tech industry. Deyby assists in the
+              development and facilitation of the program&apos;s curriculum, as
+              well as in recruitment and advisement of students.
+            </p>
+          </div>
+
+          <div className={"block"}>
+            <h2 className={"title is-4 has-text-centered"}>Prior Experience</h2>
+            <p>
+              Deyby has previously served as a Computer Science Instructor at
+              organizations such as All Star Code, Emerging Leaders in
+              Technology and Engineering (ELiTE). He has developed and delivered
+              curriculums in Full-Stack Web Development, Computer Science
+              Fundamentals, and iOS Development.
+            </p>
+          </div>
+
+          <div className={"block"}>
+            <h2 className={"title is-4 has-text-centered"}>Education</h2>
+            <p>
+              Deyby is currently a 2nd year student at New York Institute of
+              Technology (NYIT). He&apos;s working towards a B.S in Computer
+              Science, with hopes of graduating in 2025.
+            </p>
+          </div>
+
+          <div className={"block"}>
+            <h2 className={"title is-4 has-text-centered"}>
+              Looking Into The Future
+            </h2>
+            <p>
+              Deyby will be working at Prudential Financial as a Software
+              Engineering Intern in Summer 2023. His end goal is to achieve a
+              full-time role within the Financial Technology industry.
             </p>
           </div>
         </div>
