@@ -6,7 +6,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: $mediumTurquoise;
+  color: $gray;
+  background-color: $green;
 }
 
 a {
@@ -23,7 +24,7 @@ a {
 }
 
 svg.icon:hover {
-  fill: $mediumPurple;
+  fill: $purple;
 }
 /*@media (prefers-color-scheme: dark) {
   html {

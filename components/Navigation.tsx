@@ -14,7 +14,7 @@ const Navigation = () => {
 
   return (
     <nav
-      className={"navbar has-background-purple"}
+      className={"navbar has-background-blue"}
       role={"navigation"}
       aria-label={"main navigation"}
     >
@@ -42,7 +42,7 @@ const Navigation = () => {
       <div
         className={
           activeStatus
-            ? "is-active navbar-menu has-background-purple"
+            ? "is-active navbar-menu has-background-blue"
             : "navbar-menu"
         }
       >
