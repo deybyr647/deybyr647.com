@@ -9,8 +9,8 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 const HeaderSection = () => {
   return (
     <section className={`section`}>
-      <div className={`columns ${styles.intro}`}>
-        <div className={`column`}>
+      <div className={`columns ${styles.intro} has-background-white`}>
+        <div className={`column my-5`}>
           <figure className={`image ${styles.headshot}`}>
             <Image
               src={headShot}

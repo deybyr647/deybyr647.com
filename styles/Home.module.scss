@@ -1,11 +1,12 @@
-$celadonGreen: #21897e;
-$keppel: #3ba99c;
-$mediumTurquoise: #69d1c5;
-$aero: #7ebce6;
-$mediumPurple: #8980f5;
+$gray: #48474a;
+$blue: #1f92a2;
+$green: #a2c1c2;
+$white: #edf3f5;
+$purple: #8980f5;
 
 .intro {
-  border: 2px solid $celadonGreen;
+  border: 2px solid $blue;
+  border-radius: 10px;
 
   .name {
     font-size: 36px;
@@ -31,7 +32,8 @@ $mediumPurple: #8980f5;
 }
 
 .about {
-  border: 2px solid $celadonGreen;
+  border: 2px solid $blue;
+  border-radius: 10px;
 
   .heading {
     text-align: center;
