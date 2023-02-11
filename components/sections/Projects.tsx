@@ -4,9 +4,11 @@ import Card from "../Card";
 const ProjectSection = () => {
   return (
     <section className={`section`}>
-      <div className={`columns ${styles.about} is-flex-direction-column`}>
-        <div className={"column"}>
-          <h1 className={`title has-text-centered ${styles.heading}`}>
+      <div
+        className={`columns ${styles.about} is-flex-direction-column has-background-white`}
+      >
+        <div className={"column my-5"}>
+          <h1 className={`title has-text-centered ${styles.heading} my-5`}>
             Projects
           </h1>
         </div>
@@ -17,13 +19,11 @@ const ProjectSection = () => {
               <div className={"columns"}>
                 <Card />
                 <Card />
-                <Card />
               </div>
             </div>
 
             <div className={"column is-flex-direction-row"}>
               <div className={"columns"}>
-                <Card />
                 <Card />
                 <Card />
               </div>
