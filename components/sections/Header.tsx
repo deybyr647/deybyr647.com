@@ -3,6 +3,9 @@ import Image from "next/image";
 import headShot from "../../public/images/deyby.jpg";
 import { EmailIcon, GithubIcon, LinkedinIcon, ResumeIcon } from "../Icons";
 
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+
 const HeaderSection = () => {
   return (
     <section className={`section`}>
