@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import AboutSection from "../components/sections/About";
 import ProjectSection from "../components/sections/Projects";
 import HeaderSection from "../components/sections/Header";
+import Education from "../components/sections/Education";
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <Navigation />
       <HeaderSection />
       <AboutSection />
+      <Education />
       <ProjectSection />
       <Footer />
     </>
