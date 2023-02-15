@@ -3,12 +3,20 @@ import Image from "next/image";
 import headShot from "../../public/images/deyby.jpg";
 import { EmailIcon, GithubIcon, LinkedinIcon, ResumeIcon } from "../Icons";
 
+import { useEffect } from "react";
+
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 
 const HeaderSection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
-    <section className={`section`}>
+    <section className={`section`} data-aos={"fade-up"}>
       <div className={`columns ${styles.intro} has-background-white`}>
         <div className={`column my-5`}>
           <figure className={`image ${styles.headshot}`}>
@@ -30,7 +38,7 @@ const HeaderSection = () => {
 
           <div className={"block"}>
             <a
-              href={"https://www.linkedin.com/in/deyby-rodriguez/"}
+              href={"mailto:deybyr647@gmail.com?subject=Hey%20Deyby!"}
               target={"_blank"}
               rel={"noreferrer noopener"}
             >
