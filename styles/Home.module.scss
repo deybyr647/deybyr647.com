@@ -4,8 +4,10 @@ $green: #a2c1c2;
 $white: #edf3f5;
 $purple: #8980f5;
 
+$sectionBorderSize: 4px;
+
 .intro {
-  border: 2px solid $blue;
+  border: $sectionBorderSize solid $blue;
   border-radius: 10px;
 
   .name {
@@ -32,7 +34,7 @@ $purple: #8980f5;
 }
 
 .about {
-  border: 2px solid $blue;
+  border: $sectionBorderSize solid $blue;
   border-radius: 10px;
 
   .heading {
