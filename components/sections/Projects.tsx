@@ -1,9 +1,10 @@
 import styles from "../../styles/Home.module.scss";
 import Card from "../Card";
+import Carousel from "../Carousel";
 
 const ProjectSection = () => {
   return (
-    <section className={`section`}>
+    <section className={`section mx-5`}>
       <div
         className={`columns ${styles.about} is-flex-direction-column has-background-white`}
       >
@@ -14,19 +15,13 @@ const ProjectSection = () => {
         </div>
 
         <div className={"column"}>
-          <div className={"columns"}>
-            <div className={"column is-flex-direction-row"}>
-              <div className={"columns"}>
-                <Card />
-                <Card />
-              </div>
-            </div>
-
-            <div className={"column is-flex-direction-row"}>
-              <div className={"columns"}>
-                <Card />
-                <Card />
-              </div>
+          <div
+            className={
+              "columns is-justify-content-center is-align-items-center"
+            }
+          >
+            <div className={"column is-flex-direction-row is-half"}>
+              <Carousel projects={[]} />
             </div>
           </div>
         </div>

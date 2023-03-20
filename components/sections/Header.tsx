@@ -16,7 +16,7 @@ const HeaderSection = () => {
   }, []);
 
   return (
-    <section className={`section`} data-aos={"fade-up"}>
+    <section className={`section mx-5`} data-aos={"fade-up"}>
       <div className={`columns ${styles.intro} has-background-white`}>
         <div className={`column my-5`}>
           <figure className={`image ${styles.headshot}`}>

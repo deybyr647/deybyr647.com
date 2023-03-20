@@ -59,7 +59,7 @@ $sectionBorderSize: 4px;
 }
 
 .education {
-  border: 2px solid $blue;
+  border: $sectionBorderSize solid $blue;
   border-radius: 10px;
 
   .heading {
