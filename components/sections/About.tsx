@@ -7,9 +7,7 @@ const AboutSection = () => {
     <section className={`section`}>
       <div className={`columns ${styles.about} has-background-white`}>
         <div className={`column my-5`}>
-          <h1 className={`title has-text-centered ${styles.heading}`}>
-            About Deyby
-          </h1>
+          <h2 className={`title is-4 has-text-centered`}>About Deyby</h2>
           <div className={"block"}>
             <p className={"p-3"}>
               Deyby is a Full-Stack Web Developer & Computer Science Educator

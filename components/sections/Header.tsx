@@ -6,7 +6,6 @@ import { EmailIcon, GithubIcon, LinkedinIcon, ResumeIcon } from "../Icons";
 import { useEffect } from "react";
 
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
 
 const HeaderSection = () => {
   useEffect(() => {
@@ -38,9 +37,9 @@ const HeaderSection = () => {
 
           <div className={"block"}>
             <a
-              href={"mailto:deybyr647@gmail.com?subject=Hey%20Deyby!"}
+              href={"https://poplme.co/deybyr647"}
               target={"_blank"}
-              rel={"noreferrer noopener"}
+              rel={"noopener noreferrer"}
             >
               <EmailIcon />
             </a>

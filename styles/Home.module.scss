@@ -15,10 +15,6 @@ $sectionBorderSize: 4px;
     text-align: center;
   }
 
-  .heading {
-    text-align: center;
-  }
-
   .headshot {
     width: 50%;
     margin: 0 auto;
@@ -36,10 +32,6 @@ $sectionBorderSize: 4px;
 .about {
   border: $sectionBorderSize solid $blue;
   border-radius: 10px;
-
-  .heading {
-    text-align: center;
-  }
 
   .logo {
     img {
@@ -61,10 +53,6 @@ $sectionBorderSize: 4px;
 .education {
   border: 2px solid $blue;
   border-radius: 10px;
-
-  .heading {
-    text-align: center;
-  }
 
   .logo {
     img {
