@@ -1,7 +1,7 @@
 import styles from "../../styles/Home.module.scss";
 import Image from "next/image";
-import headShot from "../../public/images/deyby.jpg";
-import { EmailIcon, GithubIcon, LinkedinIcon, ResumeIcon } from "../Icons";
+import headShot from "../../public/images/deyby.jpeg";
+import { EmailIcon, GithubIcon, LinkedinIcon } from "../Icons";
 
 import { useEffect } from "react";
 
@@ -30,14 +30,16 @@ const HeaderSection = () => {
         <div
           className={`column is-flex is-flex-direction-column is-justify-content-center is-align-items-center`}
         >
-          <h1 className={`title ${styles.name}`}>Deyby Rodriguez</h1>
-          <h2 className={`subtitle ${styles.heading}`}>
+          <h1 className={`title has-text-centered ${styles.name}`}>
+            Deyby Rodriguez
+          </h1>
+          <h2 className={`subtitle mt-2 has-text-centered`}>
             Full-Stack Web Developer
           </h2>
 
           <div className={"block"}>
             <a
-              href={"https://poplme.co/deybyr647"}
+              href={"mailto:deybyr647@gmail.com?subject=Hey%20Deyby!"}
               target={"_blank"}
               rel={"noopener noreferrer"}
             >
@@ -56,13 +58,6 @@ const HeaderSection = () => {
               rel={"noreferrer noopener"}
             >
               <LinkedinIcon />
-            </a>
-            <a
-              href={"/Resume.pdf"}
-              target={"_blank"}
-              rel={"noreferrer noopener"}
-            >
-              <ResumeIcon />
             </a>
           </div>
         </div>

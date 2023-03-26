@@ -36,13 +36,3 @@ export const EmailIcon = () => (
     className={"icon"}
   />
 );
-
-export const ResumeIcon = () => (
-  <Icon
-    path={mdiFileAccount}
-    title={"Deyby's Resume"}
-    size={iconSize}
-    color={iconColor}
-    className={"icon"}
-  />
-);

@@ -6,7 +6,7 @@ const AboutSection = () => {
   const paragraphPadding: string = "p-5";
 
   return (
-    <section className={`section mx-5`}>
+    <section id={"about"} className={`section mx-5`}>
       <div className={`columns ${styles.about} has-background-white`}>
         <div className={`column my-5`}>
           <h2 className={`title is-4 has-text-centered`}>About Deyby</h2>

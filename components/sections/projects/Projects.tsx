@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 const ProjectSection = () => {
   return (
-    <section className={`section mx-5`}>
+    <section id={"projects"} className={`section mx-5`}>
       <div
         className={`columns ${styles.about} is-flex-direction-column has-background-white`}
       >

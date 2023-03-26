@@ -2,14 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../public/logo.png";
 import styles from "../styles/components/Navigation.module.scss";
-import { useState } from "react";
+import { useState, MouseEvent } from "react";
 
 const Navigation = () => {
   const [activeStatus, setActiveStatus] = useState(false);
 
-  const showNavbar = (e: React.MouseEvent<HTMLAnchorElement>): void => {
+  const showNavbar = (e: MouseEvent<HTMLAnchorElement>): void => {
     setActiveStatus(!activeStatus);
-    console.log("Toggled Nav!");
   };
 
   return (
@@ -47,19 +46,20 @@ const Navigation = () => {
         }
       >
         <div className={"navbar-end has-text-centered"}>
-          <Link className={"navbar-item has-text-white"} href={"#"}>
+          <Link className={"navbar-item has-text-white"} href={"#about"}>
             About
           </Link>
 
-          <Link className={"navbar-item has-text-white"} href={"#"}>
-            Contact
-          </Link>
-
-          <Link className={"navbar-item has-text-white"} href={"#"}>
+          <Link className={"navbar-item has-text-white"} href={"#projects"}>
             Projects
           </Link>
 
-          <Link className={"navbar-item has-text-white"} href={"#"}>
+          <Link
+            className={"navbar-item has-text-white"}
+            href={"/Deyby_Resume.pdf"}
+            target={"_blank"}
+            rel={"noreferrer noopener"}
+          >
             Resume
           </Link>
         </div>

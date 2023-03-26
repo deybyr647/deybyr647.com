@@ -12,7 +12,6 @@ $sectionBorderSize: 4px;
 
   .name {
     font-size: 36px;
-    text-align: center;
   }
 
   .headshot {
@@ -29,27 +28,7 @@ $sectionBorderSize: 4px;
   }
 }
 
-.about {
-  border: $sectionBorderSize solid $blue;
-  border-radius: 10px;
-
-  .logo {
-    img {
-      background-color: white;
-      padding: 2px;
-      width: 50%;
-      margin: 0 auto;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-        0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-  }
-
-  @media (max-width: 767px) {
-    flex-direction: column-reverse;
-    display: flex;
-  }
-}
-
+.about,
 .education {
   border: $sectionBorderSize solid $blue;
   border-radius: 10px;
@@ -63,5 +42,12 @@ $sectionBorderSize: 4px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+  }
+}
+
+.about {
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
