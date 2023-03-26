@@ -1,5 +1,5 @@
-import styles from "../../styles/Home.module.scss";
-import Carousel from "../Carousel";
+import styles from "../../../styles/Home.module.scss";
+import Carousel from "./Carousel";
 
 const ProjectSection = () => {
   return (

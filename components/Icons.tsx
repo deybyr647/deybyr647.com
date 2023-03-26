@@ -10,7 +10,7 @@ const { iconSize, iconColor } = config;
 export const LinkedinIcon = () => (
   <Icon
     path={mdiLinkedin}
-    title={"Deyby Rodriguez on LinkedIn"}
+    title={"Deyby on LinkedIn"}
     size={iconSize}
     color={iconColor}
     className={"icon"}
@@ -20,7 +20,7 @@ export const LinkedinIcon = () => (
 export const GithubIcon = () => (
   <Icon
     path={mdiGithub}
-    title={"Deyby Rodriguez on GitHub"}
+    title={"Deyby on GitHub"}
     size={iconSize}
     color={iconColor}
     className={"icon"}
@@ -30,7 +30,7 @@ export const GithubIcon = () => (
 export const EmailIcon = () => (
   <Icon
     path={mdiEmail}
-    title={"Email Me!"}
+    title={"Email Deyby"}
     size={iconSize}
     color={iconColor}
     className={"icon"}
@@ -40,7 +40,7 @@ export const EmailIcon = () => (
 export const ResumeIcon = () => (
   <Icon
     path={mdiFileAccount}
-    title={"My Resume"}
+    title={"Deyby's Resume"}
     size={iconSize}
     color={iconColor}
     className={"icon"}
