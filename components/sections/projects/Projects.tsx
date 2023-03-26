@@ -1,5 +1,4 @@
 import styles from "../../styles/Home.module.scss";
-import Card from "../Card";
 import Carousel from "../Carousel";
 
 const ProjectSection = () => {
