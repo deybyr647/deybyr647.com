@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: $purple;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -24,9 +28,12 @@ a {
   margin: 0 1rem;
 }
 
-svg.icon:hover {
-  fill: $purple;
+svg.icon {
+  path {
+    fill: $purple;
+  }
 }
+
 /*@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

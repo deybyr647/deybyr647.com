@@ -1,18 +1,16 @@
 import Icon from "@mdi/react";
-import { mdiGithub, mdiLinkedin, mdiEmail, mdiFileAccount } from "@mdi/js";
+import { mdiGithub, mdiLinkedin, mdiEmail } from "@mdi/js";
 
 const config = {
   iconSize: 1.5,
-  iconColor: "#333333",
 };
 
-const { iconSize, iconColor } = config;
+const { iconSize } = config;
 export const LinkedinIcon = () => (
   <Icon
     path={mdiLinkedin}
     title={"Deyby on LinkedIn"}
     size={iconSize}
-    color={iconColor}
     className={"icon"}
   />
 );
@@ -22,7 +20,6 @@ export const GithubIcon = () => (
     path={mdiGithub}
     title={"Deyby on GitHub"}
     size={iconSize}
-    color={iconColor}
     className={"icon"}
   />
 );
@@ -32,7 +29,6 @@ export const EmailIcon = () => (
     path={mdiEmail}
     title={"Email Deyby"}
     size={iconSize}
-    color={iconColor}
     className={"icon"}
   />
 );

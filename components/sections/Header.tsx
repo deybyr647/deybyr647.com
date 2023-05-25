@@ -1,6 +1,6 @@
 import styles from "../../styles/Home.module.scss";
 import Image from "next/image";
-import headShot from "../../public/images/deyby.jpeg";
+import headShot from "../../public/images/deyby.jpg";
 import { EmailIcon, GithubIcon, LinkedinIcon } from "../Icons";
 
 import { useEffect } from "react";

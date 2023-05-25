@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import AboutSection from "../components/sections/About";
 import ProjectSection from "../components/sections/projects/Projects";
 import HeaderSection from "../components/sections/Header";
-import Education from "../components/sections/Education";
+import Education from "../components/sections/Experience";
 
 const Home: NextPage = () => {
   return (

@@ -45,8 +45,6 @@ const Metadata = () => {
         name={"twitter:image"}
         content={"https://www.deybyr647.com/opengraph.png"}
       />
-      <meta name={"twitter:site"} content={"@deybyr647"} />
-      <meta name={"twitter:creator"} content={"@deybyr647"} />
 
       <title>Deyby Rodriguez</title>
     </Head>
