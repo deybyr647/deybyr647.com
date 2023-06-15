@@ -24,26 +24,24 @@ const ExperienceSection = () => {
           <div className={"block"}>
             <h2 className={"title is-4 has-text-centered"}>Current Role</h2>
             <p className={paragraphPadding}>
-              Deyby is currently a{" "}
+              Deyby is currently an intern Software Engineer at{" "}
               <a
-                href={"https://codenext.withgoogle.com/"}
+                href={"https://www.prudential.com/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
-                Code Next
-              </a>{" "}
-              Intern Coach at Google.{" "}
+                Prudential Financial
+              </a>
+              {". "}
+              Deyby focuses on backend development and data visualization within{" "}
               <a
-                href={"https://codenext.withgoogle.com/"}
+                href={"https://www.prudential.com/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
-                Code Next
+                Prudential&apos;s
               </a>{" "}
-              is a program which focuses on preparing high school students for
-              fruitful careers within the tech industry. Deyby assists in the
-              development and facilitation of the program&apos;s curriculum, as
-              well as in recruitment and advisement of students.
+              Chief Technology Office.
             </p>
           </div>
           <div className={"block"}>
@@ -51,6 +49,14 @@ const ExperienceSection = () => {
             <p className={paragraphPadding}>
               Deyby has previously served as a Computer Science Instructor at
               organizations such as{" "}
+              <a
+                href={"https://codenext.withgoogle.com/"}
+                target={"_blank"}
+                rel={"noopener noreferrer"}
+              >
+                Google Code Next
+              </a>
+              {", "}
               <a
                 href={"http://allstarcode.org"}
                 target={"_blank"}
@@ -67,7 +73,8 @@ const ExperienceSection = () => {
                 Emerging Leaders in Technology and Engineering (ELiTE)
               </a>
               . He has developed and delivered curriculums in Full-Stack Web
-              Development, Computer Science Fundamentals, and iOS Development.
+              Development, Computer Science Fundamentals, iOS Development and
+              Deep Learning with Python.
             </p>
           </div>
 
