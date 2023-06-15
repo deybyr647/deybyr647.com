@@ -23,17 +23,8 @@ const AboutSection = () => {
               Looking Into The Future
             </h2>
             <p className={paragraphPadding}>
-              Deyby will be working at{" "}
-              <a
-                href={"https://www.prudential.com/"}
-                target={"_blank"}
-                rel={"noopener noreferrer"}
-              >
-                Prudential Financial
-              </a>{" "}
-              as a Software Engineering Intern in Summer 2023. His end goal is
-              to achieve a full-time role within the Financial Technology
-              industry.
+              Deyby&apos;s end goal is to achieve a full-time Software
+              Engineering role within the Finance industry.
             </p>
           </div>
         </div>
