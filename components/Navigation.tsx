@@ -50,10 +50,6 @@ const Navigation = () => {
             About
           </Link>
 
-          <Link className={"navbar-item has-text-white"} href={"#projects"}>
-            Projects
-          </Link>
-
           <Link
             className={"navbar-item has-text-white"}
             href={"/Deyby Rodriguez - Resume.pdf"}
