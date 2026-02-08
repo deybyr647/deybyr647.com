@@ -1,11 +1,8 @@
+import { mdiEmail, mdiGithub, mdiLinkedin } from "@mdi/js";
 import Icon from "@mdi/react";
-import { mdiGithub, mdiLinkedin, mdiEmail } from "@mdi/js";
 
-const config = {
-  iconSize: 1.5,
-};
+const iconSize = 1.5;
 
-const { iconSize } = config;
 export const LinkedinIcon = () => (
   <Icon
     path={mdiLinkedin}
