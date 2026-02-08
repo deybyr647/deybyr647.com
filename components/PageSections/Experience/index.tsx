@@ -1,8 +1,8 @@
-import styles from "../../styles/Home.module.scss";
+import styles from "./Experience.module.scss";
 import Image from "next/image";
-import logo from "../../public/logo.png";
+import logo from "../../../public/logo.png";
 
-const ExperienceSection = () => {
+const Experience = () => {
   const paragraphPadding: string = "p-5";
 
   return (
@@ -58,7 +58,7 @@ const ExperienceSection = () => {
               </a>
               {", "}
               <a
-                href={"http://allstarcode.org"}
+                href={"https://allstarcode.org"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
@@ -66,7 +66,7 @@ const ExperienceSection = () => {
               </a>{" "}
               and{" "}
               <a
-                href={"http://www.elite-education.org/"}
+                href={"https://www.elite-education.org/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
@@ -99,4 +99,4 @@ const ExperienceSection = () => {
   );
 };
 
-export default ExperienceSection;
+export default Experience;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/logo.png";
-import styles from "../styles/components/Navigation.module.scss";
+import logo from "../../public/logo.png";
+import styles from "./Navigation.module.scss";
 import { useState, MouseEvent } from "react";
 
 const Navigation = () => {
@@ -13,12 +13,12 @@ const Navigation = () => {
 
   return (
     <nav
-      className={"navbar has-background-blue"}
+      className={`navbar ${styles.navbar}`}
       role={"navigation"}
       aria-label={"main navigation"}
     >
       <div className={"navbar-brand is-flex is-align-items-center"}>
-        <Link href={"/"}>
+        <Link href={"/public"}>
           <figure className={`image is-48x48 ${styles.logo}`}>
             <Image src={logo} alt={"Deyby Rodriguez Logo"} />
           </figure>
@@ -26,7 +26,11 @@ const Navigation = () => {
 
         <a
           role={"button"}
-          className={activeStatus ? "is-active navbar-burger" : "navbar-burger"}
+          className={
+            activeStatus
+              ? `is-active navbar-burger ${styles.navbarBurger}`
+              : `navbar-burger ${styles.navbarBurger}`
+          }
           aria-label={"menu"}
           aria-expanded={"false"}
           data-target={"navbarBasicExample"}
@@ -41,18 +45,21 @@ const Navigation = () => {
       <div
         className={
           activeStatus
-            ? "is-active navbar-menu has-background-blue"
+            ? `is-active navbar-menu ${styles.navbarMenu}`
             : "navbar-menu"
         }
       >
         <div className={"navbar-end has-text-centered"}>
-          <Link className={"navbar-item has-text-white"} href={"#about"}>
+          <Link
+            className={"navbar-item has-text-white " + styles.navbarItem}
+            href={"#about"}
+          >
             About
           </Link>
 
           <Link
-            className={"navbar-item has-text-white"}
-            href={"/Deyby Rodriguez - Resume.pdf"}
+            className={"navbar-item has-text-white " + styles.navbarItem}
+            href={"/Deyby%20Rodriguez%20-%20Resume.pdf"}
             target={"_blank"}
             rel={"noreferrer noopener"}
           >

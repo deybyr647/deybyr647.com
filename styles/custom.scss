@@ -1,19 +1,41 @@
+@use "bulma/bulma";
+
 $gray: #48474a;
 $blue: #1f92a2;
 $green: #a2c1c2;
 $white: #edf3f5;
 $purple: #8980f5;
 
-$custom-colors: (
-  "gray": $gray,
-  "blue": $blue,
-  "green": $green,
-  "white": $white,
-  "purple": $purple,
-);
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: $gray;
+  background-color: $green;
+  scroll-behavior: smooth;
+}
 
-$footer-padding: 1.4rem;
-$navbar-item-hover-background-color: $purple;
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
-@import "bulma/bulma";
-@import "~react-image-gallery/styles/scss/image-gallery.scss";
+a:hover {
+  color: $purple;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.icon {
+  margin: 0 1rem;
+}
+
+svg.icon {
+  path {
+    fill: $purple;
+  }
+}

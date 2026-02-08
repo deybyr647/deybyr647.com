@@ -1,13 +1,13 @@
-import styles from "../../styles/Home.module.scss";
+import styles from "./Header.module.scss";
 import Image from "next/image";
-import headShot from "../../public/images/deyby.jpg";
-import { EmailIcon, GithubIcon, LinkedinIcon } from "../Icons";
+import headShot from "../../../public/images/deyby.jpg";
+import { EmailIcon, GithubIcon, LinkedinIcon } from "../../Icons";
 
 import { useEffect } from "react";
 
 import AOS from "aos";
 
-const HeaderSection = () => {
+const Header = () => {
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -66,4 +66,4 @@ const HeaderSection = () => {
   );
 };
 
-export default HeaderSection;
+export default Header;

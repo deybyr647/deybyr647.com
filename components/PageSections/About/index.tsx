@@ -1,17 +1,15 @@
-import styles from "../../styles/Home.module.scss";
+import styles from "./About.module.scss";
 import Image from "next/image";
-import deybyImage from "../../public/images/deyby-2.jpg";
+import deybyImage from "../../../public/images/deyby-2.jpg";
 
-const AboutSection = () => {
-  const paragraphPadding: string = "p-5";
-
+const About = () => {
   return (
     <section id={"about"} className={`section mx-5`}>
       <div className={`columns ${styles.about} has-background-white`}>
         <div className={`column my-5`}>
           <h2 className={`title is-4 has-text-centered`}>About Deyby</h2>
           <div className={"block"}>
-            <p className={paragraphPadding}>
+            <p className={"p-5"}>
               Deyby is a Full-Stack Web Developer & Computer Science Educator
               based in New York City. He specializes in working with
               technologies, such as Node.js, Next.js, and Firebase.
@@ -22,7 +20,7 @@ const AboutSection = () => {
             <h2 className={"title is-4 has-text-centered"}>
               Looking Into The Future
             </h2>
-            <p className={paragraphPadding}>
+            <p className={"p-5"}>
               Deyby&apos;s end goal is to achieve a full-time Software
               Engineering role within the Finance industry.
             </p>
@@ -45,4 +43,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default About;

@@ -1,6 +1,8 @@
+import styles from "./Footer.module.scss";
+
 const Footer = () => {
   return (
-    <footer className={"footer has-background-blue"}>
+    <footer className={`footer has-background-blue ${styles.footer}`}>
       <div className={"content has-text-centered has-text-white"}>
         <p>
           <a
