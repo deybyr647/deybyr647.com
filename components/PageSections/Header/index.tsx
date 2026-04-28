@@ -1,8 +1,11 @@
+import { mdiFileDocument } from "@mdi/js";
+import Icon from "@mdi/react";
 import AOS from "aos";
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import ResumeModal from "@/components/Modals/ResumeModal";
 import headShot from "../../../public/images/deyby.png";
-import { EmailIcon, GithubIcon, LinkedinIcon } from "../../Icons";
+import { EmailIcon, FileIcon, GithubIcon, LinkedinIcon } from "../../Icons";
 import styles from "./Header.module.scss";
 
 const Header = () => {
@@ -11,6 +14,9 @@ const Header = () => {
       duration: 2000,
     });
   }, []);
+
+  const [showResume, setShowResume] = useState(false); // State for the modal
+  const toggleResume = () => setShowResume(!showResume);
 
   return (
     <section className={`section mx-5`} data-aos={"fade-up"}>
@@ -36,27 +42,21 @@ const Header = () => {
           </h2>
 
           <div className={"block"}>
-            <a
-              href={"mailto:deybyr647@gmail.com?subject=Hey%20Deyby!"}
-              target={"_blank"}
-              rel={"noopener noreferrer"}
+            <EmailIcon />
+            <GithubIcon />
+            <LinkedinIcon />
+
+            <ResumeModal isActive={showResume} onClose={toggleResume} />
+
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                toggleResume();
+              }}
+              type={"button"}
             >
-              <EmailIcon />
-            </a>
-            <a
-              href={"https://www.github.com/deybyr647"}
-              target={"_blank"}
-              rel={"noreferrer noopener"}
-            >
-              <GithubIcon />
-            </a>
-            <a
-              href={"https://www.linkedin.com/in/deyby-rodriguez/"}
-              target={"_blank"}
-              rel={"noreferrer noopener"}
-            >
-              <LinkedinIcon />
-            </a>
+              <FileIcon />
+            </button>
           </div>
         </div>
       </div>

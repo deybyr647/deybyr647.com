@@ -33,7 +33,7 @@ const ProjectContainer = () => {
           <div className={styles.projectContainer} ref={scrollRef}>
             {projects.map((p, index) => (
               <ProjectCard
-                key={Math.floor(Math.random() * index)}
+                key={`${p.name}`}
                 name={p.name}
                 description={p.description}
                 tags={p.tags}
