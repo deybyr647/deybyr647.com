@@ -1,0 +1,27 @@
+$gray: #48474a;
+$green: #a2c1c2;
+
+$cyan: #21897E;
+$blue: #7EBCE6;
+$aqua: #69D1C5;
+$mist: #3BA99C;
+$periwinkle: #8980F5;
+
+.projectCard {
+  flex: 0 0 350px; // Fixed width for each card
+  scroll-snap-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: $blue;
+  box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgb($periwinkle, 0.4);
+  }
+
+  @media (max-width: 768px) {
+    flex: 0 0 85%; // Show partial next card on mobile to hint at scroll
+  }
+}

@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import ProjectContainer from "@/components/Projects/ProjectContainer";
 import Footer from "../components/Footer";
 import Metadata from "../components/Metadata";
 import Navigation from "../components/Navigation";
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <Header />
       <About />
       <Education />
+      <ProjectContainer />
       <Footer />
     </>
   );

@@ -1,11 +1,9 @@
-import styles from "./Header.module.scss";
-import Image from "next/image";
-import headShot from "../../../public/images/deyby.jpg";
-import { EmailIcon, GithubIcon, LinkedinIcon } from "../../Icons";
-
-import { useEffect } from "react";
-
 import AOS from "aos";
+import Image from "next/image";
+import { useEffect } from "react";
+import headShot from "../../../public/images/deyby.png";
+import { EmailIcon, GithubIcon, LinkedinIcon } from "../../Icons";
+import styles from "./Header.module.scss";
 
 const Header = () => {
   useEffect(() => {
@@ -34,7 +32,7 @@ const Header = () => {
             Deyby Rodriguez
           </h1>
           <h2 className={`subtitle mt-2 has-text-centered`}>
-            Full-Stack Web Developer
+            Full-Stack Software Engineer
           </h2>
 
           <div className={"block"}>

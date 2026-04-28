@@ -1,12 +1,18 @@
-$blue: #1f92a2;
-$purple: #8980f5;
-$white: #edf3f5;
+$gray: #48474a;
+$green: #a2c1c2;
+
+$cyan: #21897E;
+
+$blue: #7EBCE6;
+$aqua: #69D1C5;
+$mist: #3BA99C;
+$periwinkle: #8980F5;
 
 // Group elements that share the same base background
 .navbar,
 .navbarMenu,
 .navbarItem {
-  background-color: $blue;
+  background-color: $cyan;
 }
 
 .navbarItem {
@@ -14,7 +20,7 @@ $white: #edf3f5;
 
   &:hover {
     // !important is likely needed to override Bulma's global .navbar-item:hover
-    background-color: $purple !important;
+    background-color: $periwinkle !important;
     color: white;
   }
 }
@@ -28,7 +34,7 @@ $white: #edf3f5;
   // Change color when the burger is hovered or active
   &:hover,
   &.is-active {
-    background-color: $purple !important;
+    background-color: $periwinkle !important;
   }
 }
 

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { MouseEvent, useState } from "react";
 import logo from "../../public/logo.png";
 import styles from "./Navigation.module.scss";
-import { useState, MouseEvent } from "react";
 
 const Navigation = () => {
   const [activeStatus, setActiveStatus] = useState(false);
@@ -36,6 +36,7 @@ const Navigation = () => {
           data-target={"navbarBasicExample"}
           onClick={showNavbar}
         >
+          <span aria-hidden={"true"}></span>
           <span aria-hidden={"true"}></span>
           <span aria-hidden={"true"}></span>
           <span aria-hidden={"true"}></span>

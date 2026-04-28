@@ -10,7 +10,7 @@ const Footer = () => {
             target={"_blank"}
             rel={"noopener noreferrer"}
           >
-            &copy; 2023 | Deyby Rodriguez
+            &copy; 2026 | Deyby Rodriguez
           </a>
         </p>
       </div>

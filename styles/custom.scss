@@ -2,10 +2,16 @@
 @use "aos/dist/aos.css";
 
 $gray: #48474a;
-$blue: #1f92a2;
-$green: #a2c1c2;
-$white: #edf3f5;
-$purple: #8980f5;
+
+$cyan: #21897E;
+$blue: #7EBCE6;
+$aqua: #69D1C5;
+$mist: #3BA99C;
+$periwinkle: #8980F5;
+
+h1, h2, h3, h4, h5, h6 {
+  color: $gray !important;
+}
 
 html,
 body {
@@ -14,7 +20,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: $gray;
-  background-color: $green;
+  background-color: $aqua;
   scroll-behavior: smooth;
 }
 
@@ -24,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: $purple;
+  color: $periwinkle;
 }
 
 * {
@@ -37,6 +43,6 @@ a:hover {
 
 svg.icon {
   path {
-    fill: $purple;
+    fill: $periwinkle;
   }
 }
