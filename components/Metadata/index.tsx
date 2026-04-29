@@ -22,16 +22,16 @@ const Metadata = () => {
       <meta property={"og:type"} content={"website"} />
       <meta
         property={"og:image"}
-        content={"https://www.deybyr647.com/opengraph.png"}
+        content={"https://www.deybyrodriguez.com/opengraph.png"}
       />
       <meta property={"og:image:width"} content={"1200"} />
       <meta property={"og:image:height"} content={"627"} />
-      <meta property={"og:url"} content={"https://www.deybyr647.com"} />
+      <meta property={"og:url"} content={"https://www.deybyrodriguez.com"} />
       <meta
         property={"og:description"}
         content={"Deyby Rodriguez's Personal Website. Full-Stack Web Developer"}
       />
-      <link rel={"canonical"} href={"https://www.deybyr647.com"} />
+      <link rel={"canonical"} href={"https://www.deybyrodriguez.com"} />
 
       <meta
         name={"twitter:title"}
@@ -43,7 +43,7 @@ const Metadata = () => {
       />
       <meta
         name={"twitter:image"}
-        content={"https://www.deybyr647.com/opengraph.png"}
+        content={"https://www.deybyrodriguez.com/opengraph.png"}
       />
 
       <title>Deyby Rodriguez</title>

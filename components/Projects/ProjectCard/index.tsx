@@ -32,7 +32,7 @@ const ProjectCard = ({
       </div>
 
       <div className="card-content">
-        <p className="title is-5">{name}</p>
+        <p className="title is-5 mb-3">{name}</p>
         <p className="subtitle is-6 has-text-white">{description}</p>
         <div className="tags">
           {tags?.map((tag) => (

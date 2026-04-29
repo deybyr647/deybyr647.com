@@ -1,5 +1,3 @@
-import { mdiFileDocument } from "@mdi/js";
-import Icon from "@mdi/react";
 import AOS from "aos";
 import Image from "next/image";
 import { useEffect, useState } from "react";

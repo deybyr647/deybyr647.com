@@ -8,8 +8,8 @@ const ResumeModal = ({ isActive, onClose }: ResumeModalProps) => {
 
   return (
     <div className={`modal ${isActive ? "is-active" : ""}`}>
-      {/** biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
-      {/** biome-ignore lint/a11y/noStaticElementInteractions: <explanation> */}
+      {/** biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>Only click event needed</explanation>*/}
+      {/** biome-ignore lint/a11y/noStaticElementInteractions: <explanation>Makes background interactive</explanation> */}
       <div className={"modal-background"} onClick={onClose}></div>
 
       <div className="modal-content is-huge">

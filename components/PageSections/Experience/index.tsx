@@ -1,6 +1,6 @@
-import styles from "./Experience.module.scss";
 import Image from "next/image";
 import logo from "../../../public/logo.png";
+import styles from "./Experience.module.scss";
 
 const Experience = () => {
   const paragraphPadding: string = "p-5";
@@ -24,7 +24,7 @@ const Experience = () => {
           <div className={"block"}>
             <h2 className={"title is-4 has-text-centered"}>Current Role</h2>
             <p className={paragraphPadding}>
-              Deyby is currently an intern Software Engineer at{" "}
+              As of July 2026, Deyby works full time as a Software Engineer at{" "}
               <a
                 href={"https://www.prudential.com/"}
                 target={"_blank"}
@@ -33,15 +33,19 @@ const Experience = () => {
                 Prudential Financial
               </a>
               {". "}
-              Deyby focuses on backend development and data visualization within{" "}
+              Prior to joining full time, Deyby was a 3x Software Engineering
+              Intern at{" "}
               <a
                 href={"https://www.prudential.com/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
-                Prudential&apos;s
-              </a>{" "}
-              Chief Technology Office.
+                Pru
+              </a>
+              {", "}
+              working on projects focusing on Data Analytics, Cybersecurity, and
+              Back-End Development over the summers of 2023, 2024, and 2025,
+              respectively.
             </p>
           </div>
           <div className={"block"}>
@@ -81,16 +85,17 @@ const Experience = () => {
           <div className={"block"}>
             <h2 className={"title is-4 has-text-centered"}>Education</h2>
             <p className={paragraphPadding}>
-              Deyby is currently a 3rd year student at{" "}
+              Deyby graduated from{" "}
               <a
                 href={"https://hunter.cuny.edu/"}
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >
                 CUNY Hunter College
-              </a>
-              . He&apos;s working towards a B.A degree in Computer Science, with
-              an expected graduation in Spring of 2025.
+              </a>{" "}
+              with a B.A in Computer Science in Spring 2026. He is planning to
+              pursue a Master&apos;s in Business Administration in the near
+              future.
             </p>
           </div>
         </div>
