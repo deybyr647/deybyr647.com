@@ -1,79 +1,87 @@
 [
   {
     "name": "MoodCam",
-    "description": "A web-based camera application that explores CSS filters and camera interactions, originally developed for a hackathon.",
-    "image": "https://v2.deybyr647.com/static/media/moodcam.24ff419d.webp",
-    "tags": ["JavaScript", "CSS", "HTML"],
+    "description": "A real-time facial expression recognition system that analyzes emotions via webcam and provides detailed demographic insights through an interactive web interface.",
+    "image": "/images/projects/moodcam.webp",
+    "tags": [
+      "Express.js",
+      "face-api.js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Rust",
+      "Python"
+    ],
     "link": "https://github.com/deybyr647/MoodCam"
   },
   {
-    "name": "personal-site-v2",
-    "description": "The second version of my personal portfolio website, exploring different layouts and design patterns.",
-    "image": "/images/deyby.jpg",
-    "tags": ["JavaScript", "CSS", "HTML"],
-    "link": "https://github.com/deybyr647/personal-site-v2"
-  },
-  {
-    "name": "deybyr647.github.io",
-    "description": "The deployment repository for my static personal site hosted via GitHub Pages.",
-    "image": "/opengraph.png",
-    "tags": ["HTML", "CSS", "GitHub Pages"],
-    "link": "https://github.com/deybyr647/deybyr647.github.io"
-  },
-  {
     "name": "RecycleIT",
-    "description": "A revamp of RecycleNearMe built with Next.js, allowing users to find recycling centers using location data.",
-    "image": "https://v2.deybyr647.com/static/media/recycleit.f4f31dfa.webp",
-    "tags": ["Next.js", "TypeScript", "Google Maps SDK"],
+    "description": "A geolocation-driven mapping platform that enables users to find and explore local recycling facilities with real-time distance calculations and detailed place information.",
+    "image": "/images/projects/recycleit.png",
+    "tags": ["Next.js", "TypeScript", "Bootstrap", "Google Maps SDK"],
     "link": "https://github.com/deybyr647/RecycleIT"
   },
   {
     "name": "C1-SES-Capital-Fun",
     "description": "A project created during the Capital One Software Engineering Summit focusing on financial data visualization.",
-    "image": "/images/deyby-2.jpg",
+    "image": "/images/projects/capital-fun.png",
     "tags": ["JavaScript", "React", "API"],
     "link": "https://github.com/deybyr647/C1-SES-Capital-Fun"
   },
   {
     "name": "nextjs-cors-anywhere",
     "description": "A utility proxy that provides a frontend to visualize API endpoints and bypasses CORS-related errors.",
-    "image": "/images/deyby.jpg",
+    "image": "/images/projects/cors.png",
     "tags": ["TypeScript", "Next.js", "Vercel"],
     "link": "https://github.com/deybyr647/nextjs-cors-anywhere"
   },
   {
     "name": "ExplainThis",
-    "description": "An AI-powered tool that provides concise explanations for code snippets, built for the NYIT UE Hackathon.",
-    "image": "/images/deyby-2.jpg",
-    "tags": ["TypeScript", "Next.js", "OpenAI API"],
+    "description": "An AI-powered tool that provides concise explanations for code snippets.",
+    "image": "/images/projects/explain-this.png",
+    "tags": ["TypeScript", "Next.js", "Bootstrap", "OpenAI APIs"],
     "link": "https://github.com/deybyr647/ExplainThis"
   },
   {
-    "name": "stacked-plates-inc",
-    "description": "A software project focused on gym culture and weightlifting management or tracking.",
-    "image": "/images/deyby.jpg",
-    "tags": ["TypeScript", "Next.js", "Tailwind"],
-    "link": "https://github.com/deybyr647/stacked-plates-inc"
-  },
-  {
     "name": "shop-scout-csci-39544",
-    "description": "A project for CSCI 39544 at Hunter College, likely focused on e-commerce data or price tracking.",
-    "image": "/opengraph.png",
-    "tags": ["JavaScript", "Node.js", "React"],
+    "description": "An AI-powered e-commerce assistant that uses LLMs to provide real-time product insights, review summaries, and interactive chat for smart shopping.",
+    "image": "/images/projects/shopscout.png",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "OpenAI APIs",
+      "Progressive Web App"
+    ],
     "link": "https://github.com/deybyr647/shop-scout-csci-39544"
   },
   {
     "name": "hunter-connect-csci499",
-    "description": "The capstone project for the Computer Science program at Hunter College (CSCI 499).",
-    "image": "/images/deyby-2.jpg",
-    "tags": ["TypeScript", "Next.js", "PostgreSQL"],
+    "description": "A full-stack social networking platform designed for the CUNY Hunter College community, featuring real-time messaging, event coordination, and academic interest tagging.",
+    "image": "/images/projects/hunter-connect.png",
+    "tags": [
+      "React Native",
+      "Next.js",
+      "Spring Boot",
+      "Firestore",
+      "Firebase RTDB",
+      "TypeScript",
+      "Java"
+    ],
     "link": "https://github.com/deybyr647/hunter-connect-csci499"
   },
   {
     "name": "deybyr647.com",
     "description": "The current repository for my personal portfolio website, utilizing Next.js and Bulma.",
-    "image": "/logo.png",
-    "tags": ["Next.js", "TypeScript", "SCSS"],
+    "image": "/images/branding/opengraph.png",
+    "tags": ["Next.js", "Bulma", "TypeScript", "SCSS"],
     "link": "https://github.com/deybyr647/deybyr647.com"
+  },
+  {
+    "name": "snake.js",
+    "description": "A pure JavaScript implementation of the classic game Snake.",
+    "image": "/images/projects/snakejs.png",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "link": "https://github.com/deybyr647/snake.js"
   }
 ]

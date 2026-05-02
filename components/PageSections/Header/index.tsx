@@ -2,7 +2,7 @@ import AOS from "aos";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import ResumeModal from "@/components/Modals/ResumeModal";
-import headShot from "../../../public/images/deyby.png";
+import headshot from "../../../public/images/headshots/deyby-portrait.jpg";
 import { EmailIcon, FileIcon, GithubIcon, LinkedinIcon } from "../../Icons";
 import styles from "./Header.module.scss";
 
@@ -22,7 +22,7 @@ const Header = () => {
         <div className={`column my-5`}>
           <figure className={`image ${styles.headshot}`}>
             <Image
-              src={headShot}
+              src={headshot}
               alt={"Deyby Rodriguez"}
               className={`is-rounded`}
             />

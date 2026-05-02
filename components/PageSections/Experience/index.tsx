@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../../public/logo.png";
+import headshot from "../../../public/images/headshots/deyby-headshot.png";
 import styles from "./Experience.module.scss";
 
 const Experience = () => {
@@ -13,7 +13,7 @@ const Experience = () => {
         >
           <figure className={`image ${styles.logo}`}>
             <Image
-              src={logo}
+              src={headshot}
               alt={"Deyby Rodriguez Logo"}
               className={`is-rounded`}
             />

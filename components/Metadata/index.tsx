@@ -22,7 +22,7 @@ const Metadata = () => {
       <meta property={"og:type"} content={"website"} />
       <meta
         property={"og:image"}
-        content={"https://www.deybyrodriguez.com/opengraph.png"}
+        content={"https://www.deybyrodriguez.com/images/branding/opengraph.png"}
       />
       <meta property={"og:image:width"} content={"1200"} />
       <meta property={"og:image:height"} content={"627"} />
@@ -43,7 +43,7 @@ const Metadata = () => {
       />
       <meta
         name={"twitter:image"}
-        content={"https://www.deybyrodriguez.com/opengraph.png"}
+        content={"https://www.deybyrodriguez.com/images/branding/opengraph.png"}
       />
 
       <title>Deyby Rodriguez</title>

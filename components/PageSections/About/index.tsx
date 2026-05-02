@@ -1,5 +1,5 @@
 import Image from "next/image";
-import deybyImage from "../../../public/images/deyby-2.jpg";
+import deybyImage from "../../../public/images/headshots/deyby-portrait-2.jpg";
 import styles from "./About.module.scss";
 
 const About = () => {
