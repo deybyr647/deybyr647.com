@@ -7,7 +7,7 @@ import styles from "./Navigation.module.scss";
 const Navigation = () => {
   const [activeStatus, setActiveStatus] = useState(false);
 
-  const showNavbar = (_e: MouseEvent<HTMLAnchorElement>): void => {
+  const showNavbar = (_e: MouseEvent<HTMLButtonElement>): void => {
     setActiveStatus(!activeStatus);
   };
 
