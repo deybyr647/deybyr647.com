@@ -1,0 +1,43 @@
+$gray: #48474a;
+$green: #a2c1c2;
+
+$cyan: #21897E;
+
+$blue: #7EBCE6;
+$aqua: #69D1C5;
+$mist: #3BA99C;
+$periwinkle: #8980F5;
+
+// Group elements that share the same base background
+.navbar,
+.navbarMenu,
+.navbarItem {
+  background-color: $cyan;
+}
+
+.navbarItem {
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    // !important is likely needed to override Bulma's global .navbar-item:hover
+    background-color: $periwinkle !important;
+    color: white;
+  }
+}
+
+.navbarBurger {
+  // This targets the three lines (spans) inside the burger
+  span {
+    background-color: white !important;
+  }
+
+  // Change color when the burger is hovered or active
+  &:hover,
+  &.is-active {
+    background-color: $periwinkle !important;
+  }
+}
+
+.logo {
+  margin: 10px;
+}

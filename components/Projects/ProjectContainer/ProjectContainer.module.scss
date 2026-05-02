@@ -1,0 +1,35 @@
+$gray: #48474a;
+$green: #a2c1c2;
+
+$cyan: #21897E;
+$blue: #7EBCE6;
+$aqua: #69D1C5;
+$mist: #3BA99C;
+$periwinkle: #8980F5;
+
+.container {
+  border: 4px solid $periwinkle;
+  border-radius: 10px;
+}
+
+.projectContainer {
+  display: flex;
+  flex-wrap: nowrap;     // Prevents cards from dropping to a new line
+  overflow-x: hidden;      // Enables horizontal scrolling
+  width: 100%;           // Constrains the container to the parent's width
+  gap: 1.5rem;
+  padding: 1rem 0 2rem 0;
+  scroll-behavior: smooth; // Critical for the auto-scroll animation
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  // Optional: Pause auto-scroll when user hovers
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,20 +1,21 @@
 import type { NextPage } from "next";
-import Navigation from "../components/Navigation";
-import Metadata from "../components/Metadata";
+import ProjectContainer from "@/components/Projects/ProjectContainer";
 import Footer from "../components/Footer";
-import AboutSection from "../components/sections/About";
-import ProjectSection from "../components/sections/projects/Projects";
-import HeaderSection from "../components/sections/Header";
-import Education from "../components/sections/Experience";
+import Metadata from "../components/Metadata";
+import Navigation from "../components/Navigation";
+import About from "../components/PageSections/About";
+import Education from "../components/PageSections/Experience";
+import Header from "../components/PageSections/Header";
 
 const Home: NextPage = () => {
   return (
     <>
       <Metadata />
       <Navigation />
-      <HeaderSection />
-      <AboutSection />
+      <Header />
+      <About />
       <Education />
+      <ProjectContainer />
       <Footer />
     </>
   );

@@ -1,0 +1,28 @@
+$gray: #48474a;
+$green: #a2c1c2;
+
+$cyan: #21897E;
+$periwinkle: #8980F5;
+
+$blue: #7EBCE6;
+$aqua: #69D1C5;
+$mist: #3BA99C;
+
+.about {
+  border: 4px solid $periwinkle;
+  border-radius: 10px;
+
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .logo img {
+    background-color: white;
+    padding: 2px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  }
+}
