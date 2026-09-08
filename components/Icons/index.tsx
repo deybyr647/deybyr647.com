@@ -1,5 +1,6 @@
 import { mdiEmail, mdiFileDocument, mdiGithub, mdiLinkedin } from "@mdi/js";
 import Icon from "@mdi/react";
+import { useId } from "react";
 
 const iconSize = 1.5;
 
@@ -14,6 +15,7 @@ export const LinkedinIcon = () => (
       title={"Deyby on LinkedIn"}
       size={iconSize}
       className={"icon"}
+      id={useId()}
     />
   </a>
 );
@@ -29,6 +31,7 @@ export const GithubIcon = () => (
       title={"Deyby on GitHub"}
       size={iconSize}
       className={"icon"}
+      id={useId()}
     />
   </a>
 );
@@ -44,6 +47,7 @@ export const EmailIcon = () => (
       title={"Email Deyby"}
       size={iconSize}
       className={"icon"}
+      id={useId()}
     />
   </a>
 );
@@ -54,5 +58,6 @@ export const FileIcon = () => (
     title={"See Deyby's Resume"}
     size={iconSize}
     className={"icon"}
+    id={useId()}
   />
 );
